@@ -39,11 +39,10 @@
 
 ## purchases テーブル
 
-| Column        | Type       | Options                        |
-| ------------- | ---------- | ------------------------------ |
-| user          | references | null: false, foreign_key: true |
-| date          | date       | null: false                    |
-| item          | references | null: false, foreign_key: true |
+| Column | Type       | Options                        |
+| ------ | ---------- | ------------------------------ |
+| user   | references | null: false, foreign_key: true |
+| item   | references | null: false, foreign_key: true |
 
 ### Association
 
@@ -53,14 +52,15 @@
 
 ## addressesテーブル
 
-|Column          |Type     |Options      |
-|--------------- |-------- |------------ |
-| post_num       | string  | null: false |
-| prefectures_id | integer | null: false |
-| city           | string  | null: false |
-| address_num    | integer | null: false |
-| building_name  | string  |             |
-| phone_num      | string  | null: false |
+|Column          |Type        |Options                         |
+|--------------- |----------- |------------------------------- |
+| post_num       | string     | null: false                    |
+| prefectures_id | integer    | null: false                    |
+| city           | string     | null: false                    |
+| address_num    | string     | null: false                    |
+| building_name  | string     |                                |
+| phone_num      | string     | null: false                    |
+| purchase       | references | null: false, foreign_key: true |
 
 
 ### Association

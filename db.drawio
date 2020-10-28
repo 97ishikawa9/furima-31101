@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e" modified="2020-10-28T07:06:33.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" version="13.6.5" etag="FvB25eyZuFNFfGf2vsK1">
+    <diagram id="nfZt1-khRDRyO3rE8lW_" name="ページ1">
+        <mxGraphModel dx="635" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="160" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="40" width="160" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="320" width="160" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;strokeWidth=1;endSize=30;targetPerimeterSpacing=0;startSize=30;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="135" as="sourcePoint"/>
+                        <mxPoint x="435" y="90" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="200" y="135"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;endSize=30;startSize=30;" edge="1" parent="1" source="7" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;startSize=30;endArrow=ERone;endFill=0;endSize=30;targetPerimeterSpacing=0;strokeColor=#f0f0f0;strokeWidth=1;" edge="1" parent="1" source="8" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;h1&gt;items&lt;/h1&gt;&lt;div&gt;name&lt;br&gt;description&lt;/div&gt;&lt;div&gt;category&lt;/div&gt;&lt;div&gt;status&lt;/div&gt;&lt;div&gt;send_price&lt;/div&gt;&lt;div&gt;prefectures&lt;/div&gt;&lt;div&gt;sending_days&lt;br&gt;price&lt;/div&gt;&lt;div&gt;user_id&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;shadow=0;horizontal=1;fontStyle=0;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="40" width="160" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;h1&gt;purchases&lt;/h1&gt;&lt;p&gt;post_num&lt;br&gt;prefectures&lt;br&gt;city&lt;br&gt;address_num&lt;br&gt;building_name&lt;br&gt;phone_num&lt;br&gt;user_id&lt;br&gt;item_id&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="320" width="160" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;h1&gt;users&lt;/h1&gt;&lt;div&gt;nick_name&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;&lt;div&gt;password&lt;/div&gt;&lt;div&gt;family_name&lt;/div&gt;&lt;div&gt;first_name&lt;/div&gt;&lt;div&gt;family_name_confirmation&lt;/div&gt;&lt;div&gt;first_name_confirmation&lt;/div&gt;&lt;div&gt;birthday&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="160" height="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

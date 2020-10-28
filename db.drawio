@@ -1,6 +1,6 @@
-<mxfile host="65bd71144e" modified="2020-10-28T08:21:34.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" version="13.6.5" etag="oaWYjPYcSzGmZHEkdCPY">
+<mxfile host="65bd71144e" modified="2020-10-28T08:39:21.077Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" version="13.6.5" etag="I-SBdT9X3th4DVr-uW9p">
     <diagram id="nfZt1-khRDRyO3rE8lW_" name="ページ1">
-        <mxGraphModel dx="1199" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1199" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -31,7 +31,7 @@
                 <mxCell id="8" value="&lt;h1&gt;items&lt;/h1&gt;&lt;div&gt;name&lt;br&gt;description&lt;/div&gt;&lt;div&gt;category_id&lt;/div&gt;&lt;div&gt;status_id&lt;/div&gt;&lt;div&gt;send_price_id&lt;/div&gt;&lt;div&gt;prefectures_id&lt;/div&gt;&lt;div&gt;sending_days_id&lt;br&gt;price&lt;/div&gt;&lt;div&gt;user&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;shadow=0;horizontal=1;fontStyle=0;labelBorderColor=none;" vertex="1" parent="1">
                     <mxGeometry x="440" y="40" width="160" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="&lt;h1&gt;purchases&lt;/h1&gt;&lt;p&gt;user&lt;br&gt;date&lt;br&gt;&lt;span&gt;item&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                <mxCell id="12" value="&lt;h1&gt;purchases&lt;/h1&gt;&lt;p&gt;user&lt;br&gt;&lt;span&gt;item&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
                     <mxGeometry x="290" y="320" width="160" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="&lt;h1&gt;users&lt;/h1&gt;&lt;div&gt;nick_name&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;&lt;div&gt;password&lt;/div&gt;&lt;div&gt;family_name&lt;/div&gt;&lt;div&gt;first_name&lt;/div&gt;&lt;div&gt;family_name_kana&lt;/div&gt;&lt;div&gt;first_name_kana&lt;br&gt;&lt;span&gt;birthday&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;shadow=1;" vertex="1" parent="1">

@@ -61,3 +61,4 @@ end
 gem 'devise'
 gem 'pry-rails'
 gem 'rspec-rails', '~> 4.0.0'
+gem 'factory_bot_rails'

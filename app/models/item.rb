@@ -8,17 +8,6 @@ class Item < ApplicationRecord
   belongs_to :user
   has_one_attached :image
 
-  validates :name, presence: true
-  validates :description, presence: true
-  validates :category_id, numericality: { other_than: 1 }
-  validates :category, presence: true
-  validates :status_id, numericality: { other_than: 1 }
-  validates :status, presence: true
-  validates :send_price_id, numericality: { other_than: 1 }
-  validates :send_price, presence: true
-  validates :prefectures_id, numericality: { other_than: 1 }
-  validates :prefectures, presence: true
-  validates :sending_days_id, numericality: { other_than: 1 }
-  validates :sending_days,　presence: true
-  validates :price, presence: true
+  validates :name,:description,:category,:send_price,:prefectures,:sending_days,:price, presence: true
+  validates :category_id,:status_id,:send_price_id,:prefectures_id,:sending_days_id, numericality: { other_than: 1 }
 end

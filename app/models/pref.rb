@@ -1,6 +1,6 @@
 class Pref < ActiveHash::Base
   self.data = [
-    { id: 1, name: '--'},
+    { id: 1, name: '--' },
     { id: 2, name: '北海道' },
     { id: 3, name: '青森' },
     { id: 4, name: '岩手' },
@@ -49,5 +49,4 @@ class Pref < ActiveHash::Base
     { id: 47, name: '鹿児島' },
     { id: 48, name: '沖縄' }
   ]
-
 end

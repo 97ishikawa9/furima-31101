@@ -1,0 +1,2 @@
+class SendingDay < ApplicationRecord
+end

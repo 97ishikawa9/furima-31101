@@ -1,0 +1,2 @@
+class SendPrice < ApplicationRecord
+end

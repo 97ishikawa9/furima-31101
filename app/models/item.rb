@@ -8,8 +8,22 @@ class Item < ApplicationRecord
   belongs_to :user
   has_one_attached :image
 
-  validates :name, :image, :description, :category_id, :send_price_id, :prefectures_id, :sending_days_id, presence: true
-  validates :category_id, :status_id, :send_price_id, :prefectures_id, :sending_days_id, numericality: { other_than: 1 }
+  with_options presence: true do
+    validates :name
+    validates :image
+    validates :description
+    validates :category_id
+    validates :send_price_id
+    validates :prefectures_id
+    validates :sending_days_id
+  end
+  with_options numericality: { other_than: 1 } do
+    validates :category_id
+    validates :status_id
+    validates :send_price_id
+    validates :prefectures_id
+    validates :sending_days_id
+  end
   with_options presence: true do
     validates :price, format: { with: /\A[0-9]+\z/, message: 'is invalid. Input half-width characters.' }
   end

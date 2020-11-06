@@ -127,8 +127,9 @@
     <ul class='item-lists'>
 
       <%# 商品のインスタンス変数になにか入っている場合、中身のすべてを展開できるようにしましょう %>
+      <% @items.each do |item| %>
       <li class='list'>
-        <% @items.each do |item| %>
+       <%= link_to "#" do %>
         <div class='item-img-content'>
           <%= image_tag item.image, class: "item-img" %>
 
@@ -151,12 +152,13 @@
             </div>
           </div>
         </div>
-        <% end %>
+       <% end %>
+      <% end %>
       </li>
       <%# //商品のインスタンス変数になにか入っている場合、中身のすべてを展開できるようにしましょう %>
-      <% if item = nil %>
+     <% if @items.length == 0 %>
       <li class='list'>
-        <%= link_to '#' do %>
+       <%= link_to '#' do %>
         <%= image_tag "https://s3-ap-northeast-1.amazonaws.com/mercarimaster/uploads/captured_image/content/10/a004.png", class: "item-img" %>
         <div class='item-info'>
           <h3 class='item-name'>
@@ -170,9 +172,9 @@
             </div>
           </div>
         </div>
-        <% end %>
+       <% end %>
       </li>
-      <% end %>
+     <% end %>
     </ul>
   </div>
   <%# /商品一覧 %>

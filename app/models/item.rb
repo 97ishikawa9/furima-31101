@@ -3,7 +3,7 @@ class Item < ApplicationRecord
   belongs_to :category
   belongs_to :send_price
   belongs_to :pref
-  belongs_to :sending_day
+  belongs_to :sending_days
   belongs_to :status
   belongs_to :user
   has_one_attached :image

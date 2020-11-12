@@ -7,6 +7,7 @@ class Item < ApplicationRecord
   belongs_to :status
   belongs_to :user
   has_one_attached :image
+  belongs_to :purchase
 
   with_options presence: true do
     validates :name

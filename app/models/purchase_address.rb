@@ -18,4 +18,5 @@ class PurchaseAddress
     Purchase.create(user_id: user.id, item_id: item.id)
     Address.create(post_num: post_num, prefectures_id: prefectures_id, city: city, address_num: address_num, building_name: building_name, phone_num: phone_num, purchase_id: purchase.id)
   end
+  
 end

@@ -4,7 +4,7 @@ FactoryBot.define do
     prefectures_id { 6 }
     city { "金森市" }
     address_num { "市岡2-3" }
-    building_name { '市岡ハイツ' }
+    building_name { "市岡ハイツ" }
     phone_num { "080-4323-3455" }
   end
 end

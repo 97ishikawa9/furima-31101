@@ -1,6 +1,9 @@
 class PurchasesController < ApplicationController
   before_action :set_item
   def index
+    if @item.user.id == current_user.id
+      redirect_to root_path
+    end
     @purchase_address = PurchaseAddress.new
   end
 

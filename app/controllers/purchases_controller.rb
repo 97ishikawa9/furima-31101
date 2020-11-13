@@ -1,5 +1,6 @@
 class PurchasesController < ApplicationController
   before_action :set_item
+  before_action :authenticate_user!
   def index
     if @item.user.id == current_user.id || @item.purchase != nil
       redirect_to root_path

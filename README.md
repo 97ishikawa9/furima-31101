@@ -59,7 +59,7 @@
 | city           | string     | null: false                    |
 | address_num    | string     | null: false                    |
 | building_name  | string     |                                |
-| phone_num      | string     | null: false                    |
+| phone_num      | integer    | null: false                    |
 | purchase       | references | null: false, foreign_key: true |
 
 

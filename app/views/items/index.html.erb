@@ -126,7 +126,7 @@
 
   <div class='item-contents'>
 
-    <h1>
+    <h1 class='title'>
       商品検索
     </h1>
     <%= search_form_for @p, url: items_search_path do |f| %>
@@ -135,6 +135,7 @@
       <br>
       <%= f.submit '検索' %>
     <% end %>
+    
     <h2 class='title'>ピックアップカテゴリー</h2>
     <%= link_to '新規投稿商品', "#", class: "subtitle" %>
     <ul class='item-lists'>

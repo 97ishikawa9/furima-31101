@@ -44,6 +44,10 @@ class ItemsController < ApplicationController
     redirect_to root_path
   end
 
+  def search
+    @results = @p.result.includes(:category)
+  end
+
   private
 
   def item_params
@@ -52,5 +56,9 @@ class ItemsController < ApplicationController
 
   def set_item
     @item = Item.find(params[:id])
+  end
+
+  def search_product
+    @p = Item.ransack(params[:q])
   end
 end

@@ -129,7 +129,7 @@
     <h1 class='title'>
       商品検索
     </h1>
-    <%= search_form_for @p, url: items_search_path do |f| %>
+    <%= search_form_for @p, url: search_items_path do |f| %>
       <%= f.label :name_eq, 'カテゴリー' %>
       <%= f.collection_select(:category_id, Category.all, :id, :name, include_blank: '指定なし' ) %>
       <br>

@@ -46,7 +46,7 @@ class ItemsController < ApplicationController
   end
 
   def search
-    @results = @p.result.includes(:category)
+    @results = @p.result
   end
 
   private

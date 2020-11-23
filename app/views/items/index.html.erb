@@ -121,7 +121,22 @@
   <%# /FURIMAの特徴 %>
 
   <%# 商品一覧 %>
+
+
+
   <div class='item-contents'>
+
+    <h1 class='title'>
+      商品検索
+    </h1>
+    <%= search_form_for @p, url: search_items_path do |f| %>
+      <%= f.label :name_eq, 'カテゴリー' %>
+      <%= f.collection_select(:category_id_eq, Category.all, :id, :name, include_blank: '指定なし' ) %>
+      <%= f.submit '検索' %>
+    <% end %>
+
+    <br>
+    
     <h2 class='title'>ピックアップカテゴリー</h2>
     <%= link_to '新規投稿商品', "#", class: "subtitle" %>
     <ul class='item-lists'>
